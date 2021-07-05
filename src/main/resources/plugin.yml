@@ -1,0 +1,6 @@
+name: ActionCoordinates
+main: me.twoleggedcat.actioncoordinates.Main
+version: 1.0
+api-version: 1.16
+commands:
+  coords:
