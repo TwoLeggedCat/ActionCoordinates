@@ -25,7 +25,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
         alwaysEnabled = this.getConfig().getBoolean("alwaysEnabled", true);
-        alwaysEnabled = this.getConfig().getBoolean("useDirectionNames", true);
+        useDirectionNames = this.getConfig().getBoolean("useDirectionNames", true);
     }
 
     @Override
